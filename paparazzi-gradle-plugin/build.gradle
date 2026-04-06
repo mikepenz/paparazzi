@@ -14,7 +14,7 @@ if (rootProject.name == 'paparazzi-root') {
 gradlePlugin {
   plugins {
     paparazzi {
-      id = 'app.cash.paparazzi'
+      id = 'dev.mikepenz.paparazzi'
       implementationClass = 'app.cash.paparazzi.gradle.PaparazziPlugin'
     }
   }

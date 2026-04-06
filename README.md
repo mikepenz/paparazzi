@@ -1,6 +1,9 @@
 Paparazzi
 ========
 
+> [!IMPORTANT]
+> Inofficial fork of Paparazzi with the upstream fixes for AGP 9 support.
+
 An Android library to render your application screens without a physical device or emulator.
 
 ```kotlin
