@@ -275,17 +275,17 @@ buildscript {
     google()
   }
   dependencies {
-    classpath 'app.cash.paparazzi:paparazzi-gradle-plugin:2.0.0-alpha04'
+    classpath 'dev.mikepenz.paparazzi:paparazzi-gradle-plugin:0.0.1-a01'
   }
 }
 
-apply plugin: 'app.cash.paparazzi'
+apply plugin: 'dev.mikepenz.paparazzi'
 ```
 
 Using the plugins DSL:
 ```groovy
 plugins {
-  id 'app.cash.paparazzi' version '2.0.0-alpha04'
+  id 'dev.mikepenz.paparazzi' version '0.0.1-a01'
 }
 ```
 
