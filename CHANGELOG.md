@@ -169,7 +169,7 @@ Kudos to @gamepro65, @kevinzheng-ap, @BrianGardnerAtl, @adamalyyan, and others f
 ### NOTE: Due to a known issue with [how Guava now publishes its artifact](https://github.com/google/guava/issues/6567), you will need to apply the following snippet workaround to your root build.gradle:
 ```
 subprojects {
-  plugins.withId("app.cash.paparazzi") {
+  plugins.withid("dev.mikepenz.paparazzi") {
     // Defer until afterEvaluate so that testImplementation is created by Android plugin.
     afterEvaluate {
       dependencies.constraints {

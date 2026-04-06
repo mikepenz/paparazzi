@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
   id("com.android.library")
   id("kotlin-android")
-  id("app.cash.paparazzi")
+  id("dev.mikepenz.paparazzi")
 }
 
 android {

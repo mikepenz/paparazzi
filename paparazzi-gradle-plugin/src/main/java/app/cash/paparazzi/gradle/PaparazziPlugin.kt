@@ -412,7 +412,7 @@ public class PaparazziPlugin @Inject constructor(
     val dependency = if (project.isInternal()) {
       project.dependencies.project(mapOf("path" to ":paparazzi"))
     } else {
-      project.dependencies.create("app.cash.paparazzi:paparazzi:$VERSION")
+      project.dependencies.create("dev.mikepenz.paparazzi:paparazzi:$VERSION")
     }
     val configurationName = if (isMultiplatformProject) "commonTestImplementation" else "testImplementation"
     project.configurations.getByName(configurationName).dependencies.add(dependency)

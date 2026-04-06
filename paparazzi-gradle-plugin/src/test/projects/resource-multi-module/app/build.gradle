@@ -2,7 +2,7 @@ plugins {
   id 'com.android.application'
   id 'kotlin-android'
   id 'org.jetbrains.kotlin.plugin.compose'
-  id 'app.cash.paparazzi'
+  id 'dev.mikepenz.paparazzi'
 }
 
 android {

@@ -1,7 +1,7 @@
 plugins {
   id 'com.android.dynamic-feature'
   id 'kotlin-android'
-  id 'app.cash.paparazzi'
+  id 'dev.mikepenz.paparazzi'
 }
 
 android {
